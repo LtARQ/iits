@@ -75,7 +75,7 @@ const Footer = () => {
                     <Col md={6} className="text-center text-md-start mb-3 mb-md-0">
                         &copy; <Link className="border-bottom" to="/">IITS</Link>, All Right Reserved. 
 
-                        Powered By <Link className="border-bottom" to="https://iits.gatsby.io">IITS</Link>
+                        Powered By <Link className="border-bottom" to="/">IITS</Link>
                     </Col>
                     <Col md={6} className="text-center text-md-end">
                         <div className="footer-menu">

@@ -8,11 +8,11 @@ import Services from "../components/Services";
 import Portfolio from "../components/Portfolio";
 import AboutC from "../components/AboutC";
 
-const IndexPage = () =>{
-  
+const IndexPage = (props) =>{
+  const homeUrl = props.location.pathname
  return (
   <>       
-    <Layout>
+    <Layout homeUrl={homeUrl}>
       <AboutC></AboutC>
       <Newslet></Newslet>
       <Services></Services>

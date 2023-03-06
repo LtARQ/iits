@@ -4,6 +4,7 @@ import Portfolio from '../../components/Portfolio'
 import Seo from '../../components/seo'
 
 const courses = () => {
+  
   return (
     <>
     <Layout ptitle="Courses">

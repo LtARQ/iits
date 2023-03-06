@@ -23,7 +23,7 @@ const TeamC = () => {
                                     <Link className="btn btn-square text-primary bg-white my-1" to="/"><FontAwesomeIcon icon={faInstagram}/></Link>
                                     <Link className="btn btn-square text-primary bg-white my-1" to="/"><FontAwesomeIcon icon={faLinkedinIn}/></Link>
                                 </div>
-                                <StaticImage className="img-fluid rounded w-100" src="../images/waqar.jpg" alt="img"/>
+                                <StaticImage className="img-fluid rounded w-100" src="../images/waqar.jpg" alt="waqar"/>
                             </div>
                             <div className="px-4 py-3">
                                 <h5 className="fw-bold m-0 ">Waqar Anjum</h5>
@@ -40,7 +40,7 @@ const TeamC = () => {
                                     <Link className="btn btn-square text-primary bg-white my-1" to="/"><FontAwesomeIcon icon={faInstagram}/></Link>
                                     <Link className="btn btn-square text-primary bg-white my-1" to="/"><FontAwesomeIcon icon={faLinkedinIn}/></Link>
                                 </div>
-                                <StaticImage className="img-fluid rounded w-100" src="../images/shery.jpg" alt="img"/>
+                                <StaticImage className="img-fluid rounded w-100" src="../images/shery.jpg" alt="shery"/>
                             </div>
                             <div className="px-4 py-3">
                                 <h5 className="fw-bold m-0">Shahryar Ahmed</h5>
@@ -57,7 +57,7 @@ const TeamC = () => {
                                     <Link className="btn btn-square text-primary bg-white my-1" to="/"><FontAwesomeIcon icon={faInstagram}/></Link>
                                     <Link className="btn btn-square text-primary bg-white my-1" to="/"><FontAwesomeIcon icon={faLinkedinIn}/></Link>
                                 </div>
-                                <StaticImage className="img-fluid rounded w-100" src="../images/arq2.jpg" alt="img"/>
+                                <StaticImage className="img-fluid rounded w-100" src="../images/arq2.jpg" alt="arq"/>
                             </div>
                             <div className="px-4 py-3">
                                 <h5 className="fw-bold m-0">Abdul Raouf</h5>

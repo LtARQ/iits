@@ -38,7 +38,7 @@ const AboutC = () => {
                         </div>
                     </Col>
                     <Col lg={6}>
-                        <StaticImage className="img-fluid wow zoomIn" data-wow-delay="0.5s" src="../images/img/side-1.jpg"/>
+                        <StaticImage className="img-fluid wow zoomIn" data-wow-delay="0.5s" src="../images/img/side-1.jpg" alt='about IT'/>
                     </Col>
                 </Row>
             </Container>

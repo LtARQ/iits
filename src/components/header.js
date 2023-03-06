@@ -10,8 +10,9 @@ import HeroA from "./HeroA"
 import HeroB from "./HeroB"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faPen} from '@fortawesome/free-solid-svg-icons'
-const Header = ({ siteTitle, pTitle }) => {
-    const isHomePage = window.location.pathname === '/';
+const Header = (props) => {
+    
+    const isHomePage = props.homeUrl === "/" 
     return (
         <>
     <Container className="position-relative p-0" id="ttop">
@@ -19,7 +20,7 @@ const Header = ({ siteTitle, pTitle }) => {
             <Link to="/" className="navbar-brand p-0">
                 <Navbar.Brand>
                 <h1 className="m-0"><FontAwesomeIcon icon={faPen} className="me-2"/>
-                {siteTitle}
+                {props.siteTitle}
                 <span style={{fontSize: `.75rem`}}> Institute of Infomartion Technology skills</span></h1>
                 </Navbar.Brand>
             </Link>
@@ -48,7 +49,7 @@ const Header = ({ siteTitle, pTitle }) => {
                 backgroundPosition:`10px 10px,bottom 100% right 40%,left 45% top 100%,left 4% bottom ,right 1px bottom 33%`,
                 backgroundRepeat: `no-repeat`,
                 }}>
-            {isHomePage ? <HeroB/> : <HeroA tt={pTitle} />}
+            {isHomePage ? <HeroB/> : <HeroA tt={props.pTitle} />}
         </Container>
     </Container>
     </>

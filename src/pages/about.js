@@ -10,11 +10,12 @@ const about = () => {
     <Layout ptitle="About Us">
       <AboutC/>
       <Container className='justify-content-center'>
+            <div className="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 className="position-relative d-inline text-primary ps-4">Our Vision</h6>
+                    <h2 className="mt-2">Shape the Future of Technology</h2>
+                </div>
                 <Row className='justify-content-center'>
                     <Col lg={8} className='px-lg-5'>
-                        <h1  className='cngclr-l' style={{
-                            marginBottom:`3rem`, textAlign:`center`, textDecoration:`underline`,
-                            }}>Our Vision</h1>
                         <div className='vision-align'>
                             <p>The vision of IITS is to be a leading center of excellence in the field of Information Technology, 
                                 where students, faculty, and industry professionals come together to innovate, create, and shape the future of technology.</p>
