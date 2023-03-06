@@ -6,8 +6,8 @@ import imges from '../images/img/bg-dot.png'
 import imges1 from '../images/img/bg-round.png'
 import imges2 from '../images/img/bg-tree.png'
 import imges3 from '../images/img/bg-bottom-hero.png'
-import HeroA from "./heroA"
-import HeroB from "./heroB"
+import HeroA from "./HeroA"
+import HeroB from "./HeroB"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faPen} from '@fortawesome/free-solid-svg-icons'
 const Header = ({ siteTitle, pTitle }) => {
