@@ -1,10 +1,15 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "iits",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Institute Of Information Technology Skills",
+  "version": "1.1.0",
+  "author": "ARQ",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^5.2.3",
     "gatsby": "^5.6.0",
     "gatsby-plugin-image": "^3.6.0",
     "gatsby-plugin-manifest": "^5.6.0",
@@ -12,13 +17,14 @@
     "gatsby-source-filesystem": "^5.6.0",
     "gatsby-transformer-sharp": "^5.6.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "prettier": "^2.8.3"
   },
   "keywords": [
-    "gatsby"
+    "iits, IT Institute, Computer Language Course, Short Course, IT Skills, Online Learning"
   ],
   "license": "0BSD",
   "scripts": {
@@ -32,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/LtARQ/iits"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

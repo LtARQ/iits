@@ -1,17 +1,9 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
- */
-
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
-import "./layout.css"
+import Footer from "./Footer"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, ptitle }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -24,7 +16,14 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <div className="container-xxl bg-white p-0">
+         {/* Spinner Start  */}
+        {/* <div id="spinner" className="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div className="spinner-grow text-primary" style={{width: `3rem`, height: `3rem`}} role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div> */}
+      {}<Header siteTitle={data.site.siteMetadata?.title || `Title`} pTitle={ptitle}/>
       <div
         style={{
           margin: `0 auto`,
@@ -33,17 +32,9 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `var(--space-5)`,
-            fontSize: `var(--font-sm)`,
-          }}
-        >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+        <Footer></Footer>
       </div>
+    </div>
     </>
   )
 }
