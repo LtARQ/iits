@@ -33,7 +33,7 @@ const Header = (props) => {
                     <Link to="/certification"><Nav className="nav-item nav-link ">Certification</Nav></Link>
                     <NavDropdown id="nav-dropdown-dark-example" title="Profile" menuVariant="light">
                         <NavDropdown.Item><Link to="/about">About us</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to="/team">Our Team</Link></NavDropdown.Item>
+                        {/* <NavDropdown.Item><Link to="/team">Our Team</Link></NavDropdown.Item> */}
                         <NavDropdown.Item><Link to="/vision">Vision</Link></NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item><Link to="/contact">Contact Us</Link></NavDropdown.Item>

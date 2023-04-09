@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import AboutC from '../components/AboutC'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
-import TeamC from '../components/TeamC'
+// import TeamC from '../components/TeamC'
 const about = () => {
   return (
     <>
@@ -37,7 +37,7 @@ const about = () => {
                     </Col>
                 </Row>
             </Container>
-      <TeamC />
+      {/* <TeamC /> */}
     </Layout>
     </>
     

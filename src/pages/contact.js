@@ -43,7 +43,7 @@ const contact = () => {
                                         </div>
                                     </Col>
                                     <Col sm={12} md={12} lg={12}>
-                                        <Button type='submit' className="btn btn-primary w-100 py-3">Send Message</Button>
+                                        <Button type='reset' className="btn btn-primary w-100 py-3">Send Message</Button>
                                     </Col>
                                 </Row>
                             </Form>
