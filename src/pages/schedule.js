@@ -25,7 +25,7 @@ const schedule = () => {
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
-                <ListGroup.Item>Saturday &#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; <span class="float-end">12:00 PM To 01:30 PM</span></ListGroup.Item>
+                <ListGroup.Item>Saturday &#8199;&#8199;&#8199;&#8199;&#8199;:&#8199;12:00 PM To 01:30 PM</ListGroup.Item>
                 <ListGroup.Item>Sunday &#8199;&#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
                 <ListGroup.Item>Sunday (Lab) &#8199;:&#8199; 01:30 PM To 03:00 PM</ListGroup.Item>
               </ListGroup>
@@ -134,6 +134,127 @@ const schedule = () => {
               </Card.Body>
             </Card>
           </Col>
+          <Col xs={12} md={6} lg={4} className='mt-4'>
+            <Card >
+            <StaticImage className="img-fluid w-100" src="../images/course/angular-banner.jpg" alt="angular"/>
+              <Card.Body>
+                <Card.Title>Certified Angular JS App Development Course</Card.Title>
+                <Card.Text className='text-primary pt-3 pb-0'>
+                  <p>Free Saminar on April 29, 2023 at 12:00 PM </p>
+                  <p>Classes Start from April 30, 2023. PST</p>
+                </Card.Text>
+              </Card.Body>
+              <ListGroup className="list-group-flush">
+                <ListGroup.Item>Saturday &#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
+                <ListGroup.Item>Sunday &#8199;&#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
+                <ListGroup.Item>Sunday (Lab) &#8199;:&#8199; 01:30 PM To 03:00 PM</ListGroup.Item>
+              </ListGroup>
+              <Card.Body>
+                <Link to='/courses/course-7'><Button>Course Details</Button></Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={6} lg={4} className='mt-4'>
+            <Card >
+            <StaticImage className="img-fluid w-100" src="../images/course/flutter-banner.jpg" alt="Flutter"/>
+              <Card.Body>
+                <Card.Title>Certified Flutter Mobile App Development Course</Card.Title>
+                <Card.Text className='text-primary pt-3 pb-0'>
+                  <p>Free Saminar on April 29, 2023 at 12:00 PM </p>
+                  <p>Classes Start from April 30, 2023. PST</p>
+                </Card.Text>
+              </Card.Body>
+              <ListGroup className="list-group-flush">
+                <ListGroup.Item>Saturday &#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
+                <ListGroup.Item>Sunday &#8199;&#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
+                <ListGroup.Item>Sunday (Lab) &#8199;:&#8199; 01:30 PM To 03:00 PM</ListGroup.Item>
+              </ListGroup>
+              <Card.Body>
+                <Link to='/courses/course-11'><Button>Course Details</Button></Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={6} lg={4} className='mt-4'>
+            <Card >
+            <StaticImage className="img-fluid w-100" src="../images/course/fullstack2-banner.jpg" alt="Full Stack"/>
+              <Card.Body>
+                <Card.Title>Certified Full Stack Web Development Course</Card.Title>
+                <Card.Text className='text-primary pt-3 pb-0'>
+                  <p>Free Saminar on April 29, 2023 at 12:00 PM </p>
+                  <p>Classes Start from April 30, 2023. PST</p>
+                </Card.Text>
+              </Card.Body>
+              <ListGroup className="list-group-flush">
+                <ListGroup.Item>Saturday &#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
+                <ListGroup.Item>Sunday &#8199;&#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
+                <ListGroup.Item>Sunday (Lab) &#8199;:&#8199; 01:30 PM To 03:00 PM</ListGroup.Item>
+              </ListGroup>
+              <Card.Body>
+                <Link to='/courses/course-12'><Button>Course Details</Button></Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={6} lg={4} className='mt-4'>
+            <Card >
+            <StaticImage className="img-fluid w-100" src="../images/course/communication-banner.jpg" alt="Communication Skills"/>
+              <Card.Body>
+                <Card.Title>Certified Communication Skills Course</Card.Title>
+                <Card.Text className='text-primary pt-3 pb-0'>
+                  <p>Free Saminar on April 29, 2023 at 12:00 PM </p>
+                  <p>Classes Start from April 30, 2023. PST</p>
+                </Card.Text>
+              </Card.Body>
+              <ListGroup className="list-group-flush">
+                <ListGroup.Item>Saturday &#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
+                <ListGroup.Item>Sunday &#8199;&#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
+                <ListGroup.Item>Sunday (Lab) &#8199;:&#8199; 01:30 PM To 03:00 PM</ListGroup.Item>
+              </ListGroup>
+              <Card.Body>
+                <Link to='/courses/course-8'><Button>Course Details</Button></Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={6} lg={4} className='mt-4'>
+            <Card >
+            <StaticImage className="img-fluid w-100" src="../images/course/digitalmarketing-banner.jpg" alt="Digital Marketing"/>
+              <Card.Body>
+                <Card.Title>Certified Digital Marketing Course</Card.Title>
+                <Card.Text className='text-primary pt-3 pb-0'>
+                  <p>Free Saminar on April 29, 2023 at 12:00 PM </p>
+                  <p>Classes Start from April 30, 2023. PST</p>
+                </Card.Text>
+              </Card.Body>
+              <ListGroup className="list-group-flush">
+                <ListGroup.Item>Saturday &#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
+                <ListGroup.Item>Sunday &#8199;&#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
+                <ListGroup.Item>Sunday (Lab) &#8199;:&#8199; 01:30 PM To 03:00 PM</ListGroup.Item>
+              </ListGroup>
+              <Card.Body>
+                <Link to='/courses/course-9'><Button>Course Details</Button></Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={6} lg={4} className='mt-4'>
+            <Card >
+            <StaticImage className="img-fluid w-100" src="../images/course/graphic-banner.jpg" alt="Grapgics Designing"/>
+              <Card.Body>
+                <Card.Title>Certified Graphics Designing Course</Card.Title>
+                <Card.Text className='text-primary pt-3 pb-0'>
+                  <p>Free Saminar on April 29, 2023 at 12:00 PM </p>
+                  <p>Classes Start from April 30, 2023. PST</p>
+                </Card.Text>
+              </Card.Body>
+              <ListGroup className="list-group-flush">
+                <ListGroup.Item>Saturday &#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
+                <ListGroup.Item>Sunday &#8199;&#8199;&#8199;&#8199;&#8199;&#8199;:&#8199; 12:00 PM To 01:30 PM</ListGroup.Item>
+                <ListGroup.Item>Sunday (Lab) &#8199;:&#8199; 01:30 PM To 03:00 PM</ListGroup.Item>
+              </ListGroup>
+              <Card.Body>
+                <Link to='/courses/course-10'><Button>Course Details</Button></Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          
         </Row>
       </Container>
     </Layout>

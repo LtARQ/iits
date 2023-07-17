@@ -13,7 +13,7 @@ const Flutter = () => {
                 <h1>Flutter</h1>
                 </Col>
                 <Col className='d-flex justify-content-center align-items-center'>
-                    <StaticImage src='../../images/flutter.png' alt='wordpress' height="350px" width='120px' style={{objectFit:`contain`}}/>
+                    <StaticImage src='../../images/flutter.png' alt='flutter' height="350px" width='120px' style={{objectFit:`contain`}}/>
                 </Col>
             </Row>
             <Row className='justify-content-center'>
@@ -40,7 +40,7 @@ const Flutter = () => {
                 </div>
             </Col>
             <Col sm={12} md={10} lg={8} className='d-flex justify-content-center'>
-                <Link to='/courses'><Button variant='outline-primary' className='p-3 my-4'>Certified Flutter Web Developer Course</Button></Link>
+                <Link to='/courses'><Button variant='outline-primary' className='p-3 my-4'>Certified Flutter Mobile App Development Course</Button></Link>
             </Col>
             </Row>
       </Container>

@@ -1,8 +1,9 @@
 import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 import Layout from '../../components/layout'
 import Seo from '../../components/seo'
+import { Link } from 'gatsby'
 
 const PythonDjango = () => {
   return (
@@ -119,6 +120,9 @@ const PythonDjango = () => {
                         <p>6 Months (24 weeks) with 3 training sessions of 1.5 hours a week.</p>
                     </div>
                 </Col>
+                <Col sm={12} md={10} lg={8} className='d-flex justify-content-center'>
+                <Link to='/schedule'><Button variant='outline-primary' className='p-3 my-4'>Course New Batch schedule</Button></Link>
+            </Col>
             </Row>
         </Container>
     </Layout>

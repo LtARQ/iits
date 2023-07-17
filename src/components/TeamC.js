@@ -31,6 +31,23 @@ const TeamC = () => {
                             </div>
                         </div>
                     </Col>
+                    <Col md={6} lg={4} className="wow fadeInUp" data-wow-delay="0.6s">
+                        <div className="team-item">
+                            <div className="d-flex">
+                                <div className="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style={{width: `75px`}}>
+                                    <Link className="btn btn-square text-primary bg-white my-1" to="/"><FontAwesomeIcon icon={faFacebookF}/></Link>
+                                    <Link className="btn btn-square text-primary bg-white my-1" to="/"><FontAwesomeIcon icon={faTwitter}/></Link>
+                                    <Link className="btn btn-square text-primary bg-white my-1" to="/"><FontAwesomeIcon icon={faInstagram}/></Link>
+                                    <Link className="btn btn-square text-primary bg-white my-1" to="/"><FontAwesomeIcon icon={faLinkedinIn}/></Link>
+                                </div>
+                                <StaticImage className="img-fluid rounded w-100" src="../images/waqas.jpeg" alt="waqas"/>
+                            </div>
+                            <div className="px-4 py-3">
+                                <h5 className="fw-bold m-0">Waqas Ahmed</h5>
+                                <small>DIRECTOR</small>
+                            </div>
+                        </div>
+                    </Col>
                     <Col md={6} lg={4} className="wow fadeInUp" data-wow-delay="0.3s">
                         <div className="team-item">
                             <div className="d-flex">
@@ -65,6 +82,7 @@ const TeamC = () => {
                             </div>
                         </div>
                     </Col>
+                    
                 </Row>
             </Container>
         </Container>

@@ -4,7 +4,7 @@ import * as React from 'react'
 import { Col, Container, Form, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faFacebookF, faYoutube, faInstagram, faLinkedinIn, } from '@fortawesome/free-brands-svg-icons'
-import {faArrowUp, faPaperPlane, faEnvelope, faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons'
+import {faArrowUp, faPaperPlane, faEnvelope, faMapMarkerAlt, faPhoneAlt} from '@fortawesome/free-solid-svg-icons'
  
 const Footer = () => {
   return (
@@ -15,8 +15,8 @@ const Footer = () => {
                 <Col md={6} lg={3}>
                     <h5 className="text-white mb-4">Get In Touch</h5>
                     <p><FontAwesomeIcon icon={faMapMarkerAlt} className="me-3"/>Johar Town, Lahore, Pakistan</p>
-                    {/* <p><i className="fa fa-phone-alt me-3"></i></p> */}
-                    <p><FontAwesomeIcon icon={ faEnvelope } className="me-3"/>info@iitspk.com</p>
+                    <p><FontAwesomeIcon icon={ faPhoneAlt } className='me-3'/>+92 312 7489765</p>
+                    <p><FontAwesomeIcon icon={ faEnvelope } className="me-3"/>iitslearning@gmail.com</p>
                     <div className="d-flex pt-2">
                         <Link className="btn btn-outline-light btn-social" to="/"><FontAwesomeIcon icon={faTwitter}/></Link>
                         <Link className="btn btn-outline-light btn-social" to="/"><FontAwesomeIcon icon={faFacebookF}/></Link>

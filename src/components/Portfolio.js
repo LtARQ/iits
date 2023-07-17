@@ -95,6 +95,78 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </Col>
+                    <Col md={6} lg={4} className="portfolio-item first wow zoomIn" data-wow-delay="0.6s">
+                        <div className="position-relative rounded overflow-hidden">
+                            <StaticImage className="img-fluid w-100" src="../images/course/angular-banner.jpg" alt="Angular JS"/>
+                            <div className="portfolio-overlay">
+                                <Link className="btn btn-light" to="/courses/course-7" data-lightbox="portfolio"><FontAwesomeIcon icon={faPlus} className="fa-2x text-primary"/></Link>
+                                <div className="my-auto">
+                                    <small className="text-white"><FontAwesomeIcon icon={faFolder} className="me-2"/>Certified</small>
+                                    <Link className="h5 d-block text-white mt-1 mb-0" to="/courses/course-7">Angular JS App Development Course</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col md={6} lg={4} className="portfolio-item first wow zoomIn" data-wow-delay="0.6s">
+                        <div className="position-relative rounded overflow-hidden">
+                            <StaticImage className="img-fluid w-100" src="../images/course/communication-banner.jpg" alt="Communication Skills"/>
+                            <div className="portfolio-overlay">
+                                <Link className="btn btn-light" to="/courses/course-8" data-lightbox="portfolio"><FontAwesomeIcon icon={faPlus} className="fa-2x text-primary"/></Link>
+                                <div className="my-auto">
+                                    <small className="text-white"><FontAwesomeIcon icon={faFolder} className="me-2"/>Certified</small>
+                                    <Link className="h5 d-block text-white mt-1 mb-0" to="/courses/course-8">Communication Skills Course</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col md={6} lg={4} className="portfolio-item first wow zoomIn" data-wow-delay="0.6s">
+                        <div className="position-relative rounded overflow-hidden">
+                            <StaticImage className="img-fluid w-100" src="../images/course/digitalmarketing-banner.jpg" alt="Digital Marketing"/>
+                            <div className="portfolio-overlay">
+                                <Link className="btn btn-light" to="/courses/course-9" data-lightbox="portfolio"><FontAwesomeIcon icon={faPlus} className="fa-2x text-primary"/></Link>
+                                <div className="my-auto">
+                                    <small className="text-white"><FontAwesomeIcon icon={faFolder} className="me-2"/>Certified</small>
+                                    <Link className="h5 d-block text-white mt-1 mb-0" to="/courses/course-9">Digital Marketing Course</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col md={6} lg={4} className="portfolio-item first wow zoomIn" data-wow-delay="0.6s">
+                        <div className="position-relative rounded overflow-hidden">
+                            <StaticImage className="img-fluid w-100" src="../images/course/graphic-banner.jpg" alt="Graphic Designing"/>
+                            <div className="portfolio-overlay">
+                                <Link className="btn btn-light" to="/courses/course-10" data-lightbox="portfolio"><FontAwesomeIcon icon={faPlus} className="fa-2x text-primary"/></Link>
+                                <div className="my-auto">
+                                    <small className="text-white"><FontAwesomeIcon icon={faFolder} className="me-2"/>Certified</small>
+                                    <Link className="h5 d-block text-white mt-1 mb-0" to="/courses/course-10">Graphic Designing Course</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col md={6} lg={4} className="portfolio-item first wow zoomIn" data-wow-delay="0.6s">
+                        <div className="position-relative rounded overflow-hidden">
+                            <StaticImage className="img-fluid w-100" src="../images/course/flutter-banner.jpg" alt="Flutter"/>
+                            <div className="portfolio-overlay">
+                                <Link className="btn btn-light" to="/courses/course-11" data-lightbox="portfolio"><FontAwesomeIcon icon={faPlus} className="fa-2x text-primary"/></Link>
+                                <div className="my-auto">
+                                    <small className="text-white"><FontAwesomeIcon icon={faFolder} className="me-2"/>Certified</small>
+                                    <Link className="h5 d-block text-white mt-1 mb-0" to="/courses/course-11">Flutter Mobile App Development Course</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col md={6} lg={4} className="portfolio-item first wow zoomIn" data-wow-delay="0.6s">
+                        <div className="position-relative rounded overflow-hidden">
+                            <StaticImage className="img-fluid w-100" src="../images/course/fullstack2-banner.jpg" alt="Full Stack"/>
+                            <div className="portfolio-overlay">
+                                <Link className="btn btn-light" to="/courses/course-12" data-lightbox="portfolio"><FontAwesomeIcon icon={faPlus} className="fa-2x text-primary"/></Link>
+                                <div className="my-auto">
+                                    <small className="text-white"><FontAwesomeIcon icon={faFolder} className="me-2"/>Certified</small>
+                                    <Link className="h5 d-block text-white mt-1 mb-0" to="/courses/course-12">Full Stack Web Development Course</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
                 </Row>
             </Container>
         </Container>
